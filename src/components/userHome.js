@@ -9,8 +9,9 @@ export default function UserHome({ userData }) {
     <div className="auth-wrapper">
       <div className="auth-inner">
         <div>
-          Name<h1>{userData.fname}</h1>
-          Email <h1>{userData.email}</h1>
+          <h2>Welcome Users😍</h2>
+          Name<h2>{userData.fname}</h2>
+          Email <h3>{userData.email}</h3>
           <br />
           <button onClick={logOut} className="btn btn-primary">
             Log Out
